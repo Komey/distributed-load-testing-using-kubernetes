@@ -29,7 +29,7 @@ class MetricsTaskSet(TaskSet):
 
     @task(1)
     def login(self):
-        self.client.get('/')
+        self.client.get('/resources/scripts/axure/globals.js')
 
     # @task(1)
     # def login(self):
